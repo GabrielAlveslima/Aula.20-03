@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+
+    box-sizing: border-box; /* Tamanho da caixa*/
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+
+    --cor-fonte: rgb(0, 0, 0);
+}
+
+/*
+elemento {
+
+        propriedade:valor; 
+}
+*/
+
+body{
+
+    color: black;
+
+}
+
+header{
+
+    background-color: rgb(0, 0, 0);
+    color: white; /* Muda a cor da Fonte*/
+    font-size: 26px;
+    font-family: "Anta", sans-serif;
+
+}
+
+.cabecalho_conteudo{
+
+    width: 50%;
+    
+}
+
+    header a {
+        color: white; /* Muda a cor da Fonte*/
+        text-decoration: none ; /* retirar o sublinhado do texto */ 
+
+    }
+
+    header a:hover{ /* Passar o mouse e mudar a cor*/
+
+        color: brown;
+        font-weight: bold;
+    }
+
+    header ul{
+
+        list-style: none; /* retirar as bolinhas da lista*/
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    h1{
+
+        font-family: "Montserrat", sans-serif;
+        text-align: center; /* Alinhamento de texto */
+    }
+
+
+
+
